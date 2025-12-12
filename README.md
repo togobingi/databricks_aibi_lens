@@ -1,6 +1,6 @@
 # Dashboard Column Analyzer
 
-A tool that analyzes Databricks AI/BI dashboards, and surfaces only the columns which are actually utilised in your dashboards, improving pipeline & dashboard performance.
+A tool which allows you to avoid `SELECT *` queries, by analysing your Databricks AI/BI dashboards, and extracting only the columns which are utilised in  them; it identifies unused columns that can be removed from ETL pipelines, improving your pipeline & dashboard performance.
 
 ## 📋 Table of Contents
 
